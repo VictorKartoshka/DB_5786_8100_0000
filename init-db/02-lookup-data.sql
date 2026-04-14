@@ -6,7 +6,7 @@
 =========================================================================== */
 
 -- STATUS_TYPE: Defines all possible states for reservations and waitlist entries.
---   IDs 1-5 are reservation-oriented; IDs 6-8 are waitlist-oriented.
+--   IDs 1-5 are reservation-oriented; IDs 1-8 are waitlist-oriented.
 INSERT INTO STATUS_TYPE (status_ID, description) VALUES
 (1, 'Pending'),
 (2, 'Confirmed'),
@@ -36,4 +36,3 @@ INSERT INTO REASON (reason_id, description) VALUES
 (6, 'Points Redemption'),
 (7, 'Promotional Offer'),
 (8, 'Penalty Adjustment');
-
